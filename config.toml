@@ -1,5 +1,5 @@
 title = "Duckquill"
-base_url = "https://bahrom04.github.io/bahrom04.uz/"
+base_url = "https://bahrom04.github.io/"
 description = "Opinionated, modern, pretty, and clean Zola theme."
 
 compile_sass = true
