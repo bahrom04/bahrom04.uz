@@ -1,0 +1,37 @@
+name: "Deploy"
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+jobs:
+  deploy:
+    name: "Deploy"
+    runs-on: codeberg-tiny
+    steps:
+      - name: "Checkout"
+        uses: https://code.forgejo.org/actions/checkout@v4
+      - name: "Build"
+        uses: https://github.com/shalzz/zola-deploy-action@master
+        env:
+          BUILD_ONLY: true
+      - name: "Deploy"
+        uses: https://github.com/nwtgck/actions-netlify@v2.0
+        with:
+          publish-dir: './public'
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deployed from Codeberg"
+          enable-commit-comment: false
+          enable-pull-request-comment: false
+          overwrites-pull-request-comment: true
+          enable-github-deployment: false
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        timeout-minutes: 1
