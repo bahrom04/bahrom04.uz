@@ -3,7 +3,7 @@ name: Deploy CI
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 permissions:
