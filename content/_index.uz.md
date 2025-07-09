@@ -16,7 +16,8 @@ jgs~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~
 
 # LEARN, EARCH & CHANGE THE WORLD
 
-Developer from Uzbekistan. Linux fan. Translating some apps into uzbek language such as GNOME apps
+O'zbekistonlik dasturchi. Linux muxlisi. GNOME ilovalari kabi ba'zi ilovalarni o'zbek tiliga tarjima qilish
+
 <!-- 
 ### Localization
 
@@ -30,5 +31,5 @@ Additionally to translating Duckquill, you can also override the English stings 
 
 ## Thanks To
 
-- [Zola](https://www.getzola.org/) and [Duckquill](https://duckquill.daudix.one/) for the website theme
-- Everyone who supported me and said good stuff <3
+- Veb-sayt mavzusi uchun [Zola](https://www.getzola.org/) va [Duckquill](https://duckquill.daudix.one/)
+- Meni qo'llab-quvvatlagan va yaxshi gaplarni aytgan hamma <3
