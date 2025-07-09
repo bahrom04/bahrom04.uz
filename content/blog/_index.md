@@ -1,9 +1,9 @@
 +++
-title = "Writings of Duck's Feet"
+title = "My blogs that i wanted to share with others"
 sort_by = "date"
 template = "article_list.html"
 page_template = "article.html"
-paginate_by = 2
+paginate_by = 4
 +++
 
-Welcome to my quack'in blog, I quack about various stuff, but mostly I'm a demo.
+Welcome to my blog.

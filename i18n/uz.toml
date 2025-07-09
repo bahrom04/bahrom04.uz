@@ -9,10 +9,9 @@ date_locale = "uz_UZ"
 
 # Menu items.
 # Should match the names in config.extra.nav.links and config.extra.footer.links.
-Links = "Links"
+Links = "Linklar"
 Blog = "Blog"
-Demo = "Demo"
-Coffee = "Coffee"
+Coffee = "Kofe"
 
 all_tags = "See all tags"
 archived = "Archived"
