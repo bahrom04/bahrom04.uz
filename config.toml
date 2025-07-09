@@ -1,6 +1,6 @@
-title = "Duckquill"
+title = "bahrom04"
 base_url = "https://bahrom04.github.io/"
-description = "Opinionated, modern, pretty, and clean Zola theme."
+description = "bahrom04ʼs personal website"
 
 compile_sass = true
 minify_html = true
@@ -9,7 +9,7 @@ generate_feeds = true
 # other feeds will still be available in page's head.
 feed_filenames = ["rss.xml", "atom.xml"]
 build_search_index = true
-author = "Duck Quack"
+author = "bahrom04"
 
 # Based on https://github.com/welpo/tabi
 #
@@ -81,6 +81,13 @@ generate_feeds = true
 
 taxonomies = [{ name = "tags", feed = true }]
 
+[languages.uz]
+title = "Duckquill"
+description = "oʻzbek tilida"
+generate_feeds = true
+
+taxonomies = [{ name = "tags", feed = true }]
+
 [languages.zh-Hans]
 title = "Duckquill"
 description = "有主见、现代、漂亮、简洁的 Zola 主题。"
@@ -88,17 +95,18 @@ generate_feeds = true
 
 taxonomies = [{ name = "tags", feed = true }]
 
+
 [extra]
 # Which theme should be used by default (light/dark).
 #
-# default_theme = "dark"
+default_theme = "dark"
 #
 # Sets theme and browser theme color.
 # See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
-accent_color = "#ff7800"
+accent_color = "#3b3c45"
 # Ditto but for the dark theme.
 # If not set regular variant will be used.
-accent_color_dark = "#ffa348"
+accent_color_dark = "#3b3c45"
 # Whether to use fonts bundled with Duckquill instead of system ones.
 # Keep in mind that it also changes the style of headings.
 #
@@ -107,7 +115,7 @@ accent_color_dark = "#ffa348"
 # Use emoji as a favicon.
 # Only one emoji is being rendered, everything else is truncated.
 #
-# emoji_favicon = "🦆🪶"
+emoji_favicon = "🖥️"
 #
 # URL to website's issue tracker
 issues_url = "https://codeberg.org/daudix/duckquill/issues"
