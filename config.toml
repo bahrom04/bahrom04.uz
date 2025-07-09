@@ -68,9 +68,9 @@ accent_color_dark = "#696969"
 emoji_favicon = "🖥️"
 #
 # URL to website's issue tracker
-issues_url = "https://codeberg.org/daudix/duckquill/issues"
+issues_url = "https://github.com/bahrom04/bahrom04.uz/issues"
 # URL to website's source code
-source_url = "https://codeberg.org/daudix/duckquill"
+source_url = "https://github.com/bahrom04/bahrom04.uz"
 # Additional CSS styles; expects them to be in the "./static/" directory.
 # If you are using Sass it will be generated there automatically.
 #
